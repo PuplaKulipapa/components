@@ -1,0 +1,45 @@
+kind: ComponentConfiguration/v1
+metadata:
+  guid: 33900f2a-9e92-40e8-96a4-f91cb8729b87
+  name: Stepper driver
+  version: "1.0.0"
+template:
+  name: Integrated Circuit 2
+  guid: 2cd49d7c-eb1a-4fe4-9104-c45023e3fc95
+properties:
+  - name: Header
+    value: A4988
+  - name: Size
+    value: 16
+  - name: Pin0
+    value: EN
+  - name: Pin1
+    value: VMOT
+  - name: Pin2
+    value: MS0
+  - name: Pin3
+    value: GND
+  - name: Pin4
+    value: MS1
+  - name: Pin5
+    value: B2
+  - name: Pin6
+    value: MS2
+  - name: Pin7
+    value: B1
+  - name: Pin8
+    value: RST
+  - name: Pin9
+    value: A1
+  - name: Pin10
+    value: SLP
+  - name: Pin11
+    value: A2
+  - name: Pin12
+    value: STEP
+  - name: Pin13
+    value: VCC
+  - name: Pin14
+    value: DIR
+  - name: Pin15
+    value: GND
